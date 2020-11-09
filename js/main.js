@@ -1,1 +1,1 @@
-alert('Hello from the outside')
+console.info("Hello Console");

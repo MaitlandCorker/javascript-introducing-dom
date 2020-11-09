@@ -6,6 +6,16 @@
     document.getElementById("myHeading").innerHTML = "Maitland's Website";
     document.querySelector("nav li").setAttribute("class", "currentPage");
     document.querySelector("nav ul li a").setAttribute('href','http://www.google.co.uk');
+    
+    //DOM Event
+    //document.getElementById("myTestEvent").onclick = function(){
+    //console.info("I was Clicked");
+    //}
+
+    document.getElementById("myTestEvent").addEventListener("click", function(){
+        console.info("I Was Clicked Again")
+    })
+
     // The end of it
 })();
 

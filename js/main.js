@@ -1,3 +1,3 @@
 console.info("Hello Console");
 console.dir(document);
-document.getElementById("myHeading").innerHTML = "Maitland's Website";
+document.getElementById("myHeading").innerHTML = "Maitland's Website"

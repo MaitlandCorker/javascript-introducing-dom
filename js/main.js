@@ -17,6 +17,10 @@
         console.dir(ev)
     })
 
+    document.querySelector(".red").addEventListener("click", function(){
+        document.querySelector("body").setAttribute("class", "redBack")
+    })
+
     // The end of it
 })();
 

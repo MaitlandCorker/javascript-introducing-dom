@@ -12,8 +12,9 @@
     //console.info("I was Clicked");
     //}
 
-    document.getElementById("myTestEvent").addEventListener("click", function(){
+    document.getElementById("myTestEvent").addEventListener("click", function(ev){
         console.info("I Was Clicked Again")
+        console.dir(ev)
     })
 
     // The end of it

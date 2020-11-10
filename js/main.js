@@ -25,12 +25,12 @@
         document.querySelector("body").setAttribute("class", "greenBack")
     })
 
-    document.querySelector(".red").addEventListener("click", function(){
-        document.querySelector("body").setAttribute("class", "redBack")
+    document.querySelector(".blue").addEventListener("click", function(){
+        document.querySelector("body").setAttribute("class", "blueBack")
     })
 
-    document.querySelector(".red").addEventListener("click", function(){
-        document.querySelector("body").setAttribute("class", "redBack")
+    document.querySelector(".default").addEventListener("click", function(){
+        document.querySelector("body").setAttribute("class", "whiteBack")
     })
 
     // The end of it

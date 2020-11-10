@@ -30,7 +30,7 @@
     })
 
     document.querySelector(".default").addEventListener("click", function(){
-        document.querySelector("body").removeAttribute("class", "defaultBack")
+        document.querySelector("body").removeAttribute("class", "blueBack")
     })
 
     // The end of it

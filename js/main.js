@@ -21,6 +21,18 @@
         document.querySelector("body").setAttribute("class", "redBack")
     })
 
+    document.querySelector(".green").addEventListener("click", function(){
+        document.querySelector("body").setAttribute("class", "greenBack")
+    })
+
+    document.querySelector(".red").addEventListener("click", function(){
+        document.querySelector("body").setAttribute("class", "redBack")
+    })
+
+    document.querySelector(".red").addEventListener("click", function(){
+        document.querySelector("body").setAttribute("class", "redBack")
+    })
+
     // The end of it
 })();
 

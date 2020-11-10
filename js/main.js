@@ -30,7 +30,7 @@
     })
 
     document.querySelector(".default").addEventListener("click", function(){
-        document.querySelector("body").removeAttribute("class", "currentPage")
+        document.querySelector("body").setAttribute("class", "currentPage")
     })
 
     // The end of it

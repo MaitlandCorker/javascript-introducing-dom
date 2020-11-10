@@ -29,8 +29,8 @@
         document.querySelector("body").setAttribute("class", "blueBack")
     })
 
-    document.querySelector(".default").addEventListener("click", function(){
-        document.querySelector("body").setAttribute("class", "currentPage")
+    document.querySelector(".reset").addEventListener("click", function(){
+        document.querySelector("body").removeAttribute("class", "defaultBack")
     })
 
     // The end of it

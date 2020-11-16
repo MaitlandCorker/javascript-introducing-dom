@@ -75,7 +75,7 @@
         document.getElementById("myImages").setAttribute("src", imageAr[counter])
     }
         
- 
+    console.dir(window.location)
 
 })();
 

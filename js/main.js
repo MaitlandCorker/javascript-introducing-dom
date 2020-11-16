@@ -12,7 +12,7 @@
     //console.info("I was Clicked");
     //}
 
-    document.getElementById("myTestEvent").addEventListener("click", function(ev){
+    /*document.getElementById("myTestEvent").addEventListener("click", function(ev){
         console.info("I Was Clicked Again")
         console.dir(ev)
     })
@@ -31,7 +31,20 @@
 
     document.querySelector(".reset").addEventListener("click", function(){
         document.querySelector("body").removeAttribute("class", "defaultBack")
-    })
+    })*/
+
+    var colourButtons = document.querySelectorAll(".colpicker")
+    console.dir(colourButtons)
+
+    for(var i = 0;i < colourButtons.length; i++){
+        colourButtons[i].addEventListener("click", chgColour)
+
+    }
+
+    function chgColour(ev){
+        console.info(ev.target)
+    }
+
 
     // The end of it
 })();

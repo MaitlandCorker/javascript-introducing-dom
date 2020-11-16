@@ -56,5 +56,26 @@
 
 
     // The end of it
+
+    var imageAr = ['images/view1.jpg', 
+    'images/view2.jpg', 
+    'images/view3.jpg',
+    'images/view4.jpg', 
+    'images/view5.jpg',
+    'images/view6.jpg'];
+
+    var counter = 0;
+    chgImage();
+    setInterval(chgImage, 2000);
+    function chgImage(){
+        counter++
+        if(counter === imageAr.length){
+            counter = 0
+        }
+        document.getElementById("myImages").setAttribute("src", imageAr[counter])
+    }
+        
+ 
+
 })();
 

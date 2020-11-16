@@ -42,7 +42,16 @@
     }
 
     function chgColour(ev){
-        console.info(ev.target)
+        //console.dir(ev.target.classList)
+        var colourPicked = ev.target.classList[0] + "Back";
+        console.info.apply(colourPicked)
+        var bodyElement= document.querySelector("body");
+        if(colourPicked === " resetBack"){
+            bodyElement.removeAttribute("class")
+        }else{
+            bodyElement.setAttribute("class", colourPicked)
+        }
+        bodyElement.setAttribute("class", colourPicked)
     }
 
 

@@ -5,7 +5,7 @@
     console.dir(document);
     document.getElementById("myHeading").innerHTML = "Maitland's Website";
     document.querySelector("nav li").setAttribute("class", "currentPage");
-    document.querySelector("nav ul li a").setAttribute('href','http://www.google.co.uk');
+    document.querySelector("nav ul li a").setAttribute('href','');
     
     //DOM Event
     //document.getElementById("myTestEvent").onclick = function(){
@@ -76,6 +76,9 @@
     }
         
     console.dir(window.location)
-
+    var url = window.location.href;
+    console.dir(url.split('/'));
+    var filename = url.split('/').pop();
+    console.info("fileName")
 })();
 
